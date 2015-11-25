@@ -23,7 +23,7 @@ def pick_engine():
 engine_name, base_url = pick_engine()
 	 
 root = Tk()
-root.geometry('450x450+200+200')
+
 root.title('Search in ' + engine_name)
 	 
 String_Entry = Entry(root)
